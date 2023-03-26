@@ -1,5 +1,4 @@
 
-![MasterHead](https://user-images.githubusercontent.com/123060177/227799525-1835619d-45ea-43f3-9e88-09cb31f87ee9.gif)
 <h1 align="center">Hi 👋, I'm Ali Hamza Kamboh [ahkamboh]</h1>
 <h3 align="center">A passionate frontend developer from Lahore,Punjab.Pk</h3>
 
