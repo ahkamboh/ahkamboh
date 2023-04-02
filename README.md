@@ -1,8 +1,5 @@
 
 <h1 align="center">Hi 👋, I'm Ali Hamza Kamboh [ahkamboh]</h1>
-<h3 align="center">A passionate frontend developer from Lahore,Punjab.Pk</h3>
-
-
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ahkamboh&label=Profile%20views&color=0e75b6&style=flat" alt="ahkamboh" /> </p>
 <img  align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/123060177/227797198-82940c2a-507a-4bd9-a46a-62b2eb02d7cf.gif"  />
