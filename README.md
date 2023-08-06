@@ -6,9 +6,9 @@
 
 - 🔭  I’m currently Working on **Web apps**
 
-- 🌱 I’m currently learning **JS Express**
+- 🌱 I’m currently learning **Ruby on rails**
 
-- 💬 Ask me about **CSS, Html , Javascript ,C, Python**
+- 💬 Ask me about **CSS, Html , Javascript ,C, Python , TailwindCss ,,stimulus js**
 
 - 📫 How to reach me **hi@alihamzakamboh.com**
 
