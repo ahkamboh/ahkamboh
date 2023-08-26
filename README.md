@@ -10,7 +10,7 @@
 
 - 💬 Ask me about **CSS, Html , Javascript ,C, Python , TailwindCss ,,stimulus js**
 
-- 📫 How to reach me **kambohdiv@gmail.com**
+- 📫 How to reach me **ahk@alihamzakamboh.com**
 
 - 📄 Know about my experiences **https://alihamzakamboh.com**
 <!-- <h3 align="left">Languages and Tools:</h3>
