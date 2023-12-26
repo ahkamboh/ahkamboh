@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **Ruby on rails**
 
-- 💬 Ask me about **CSS, Html , Javascript ,C, Python , TailwindCss ,stimulus js , parsley js , Ror,Git**
+- 💬 Ask me about **CSS, Html, Javascript , C ,C++, Python , TailwindCss, stimulus js, parsley JS, Ror, Git,linux**
 
 - 📫 How to reach me **ahk@alihamzakamboh.com**
 
