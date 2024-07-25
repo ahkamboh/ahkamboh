@@ -6,7 +6,7 @@
 
 - 🔭  I’m currently Working on **Web apps**
 
-- 🌱 I’m currently learning **Ai Development**
+- 🌱 I’m currently learning **AI Development**
 
 - 📫 How to reach me **ahk@alihamzakamboh.com**
 
