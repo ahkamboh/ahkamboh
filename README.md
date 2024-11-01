@@ -8,10 +8,6 @@
   <img align="center" alt="Coding" width="290" src="https://user-images.githubusercontent.com/123060177/227797198-82940c2a-507a-4bd9-a46a-62b2eb02d7cf.gif" style="max-width: 100%; height: auto;" />
 </div>
 
- ## Real word problem solver through CS/AI
-
-> "I can adapt to and master any technology rapidly."
-
 -  How to reach me **ahk@alihamzakamboh.com**
 -  My second account **https://github.com/kambohdiv**
   
