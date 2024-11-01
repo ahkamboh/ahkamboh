@@ -12,7 +12,7 @@
 
 > "I can adapt to and master any technology rapidly. While these are my current expertise areas."
 
-- 📫 How to reach me **ahk@alihamzakamboh.com**
+-  How to reach me **ahk@alihamzakamboh.com**
 -  My second account **https://github.com/kambohdiv**
   
 ## 🌐 Socials:
