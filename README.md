@@ -10,7 +10,7 @@
 
  ## Real word problem solver through CS/AI
 
-> "I can adapt to and master any technology rapidly. While these are my current expertise areas."
+> "I can adapt to and master any technology rapidly."
 
 -  How to reach me **ahk@alihamzakamboh.com**
 -  My second account **https://github.com/kambohdiv**
