@@ -12,10 +12,6 @@
 
 > "I can adapt to and master any technology rapidly. While these are my current expertise areas."
 
-## ⚡ Fun Facts
-- Write poetry in both Urdu and English
-- Professional snooker and badminton player
-- Passionate about family farming
 - 📫 How to reach me **ahk@alihamzakamboh.com**
 -  My second account **https://github.com/kambohdiv**
   
