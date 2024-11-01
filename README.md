@@ -10,16 +10,7 @@
 
  ## Real word problem solver through CS/AI
 
-I'm a programmer passionate about building innovative solutions with modern technologies.
-
 > "I can adapt to and master any technology rapidly. While these are my current expertise areas."
-
-### 🌱 Learning & Exploring
-- **Web3:** Solidity, Ethereum Development
-- **Mobile:** React Native, Flutter
-- **Cloud:** GCP, Azure
-- **AI/ML:** PyTorch, Hugging Face
-- **Languages:** Rust, Go
 
 ## ⚡ Fun Facts
 - Write poetry in both Urdu and English
