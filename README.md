@@ -12,16 +12,7 @@
 
 I'm a programmer passionate about building innovative solutions with modern technologies.
 
-## 🛠 Tech Stack
-
 > "I can adapt to and master any technology rapidly. While these are my current expertise areas."
-
-### 💪 Current Expertise
-- **Frontend:** Next.js, React.js, TypeScript, Tailwind CSS
-- **Backend:** Node.js, Ruby on Rails, Express.js
-- **AI/ML:** Langchain, RAG, TensorFlow, OpenAI, Llama 3, Groq-SDK
-- **Databases:** MySQL, MongoDB, PostgreSQL, AWS DynamoDB, Firebase
-- **DevOps:** Git, Docker, AWS, Vercel
 
 ### 🌱 Learning & Exploring
 - **Web3:** Solidity, Ethereum Development
