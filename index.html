@@ -53,8 +53,95 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
     
+    <!-- Add your custom CSS -->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    
     <style>
-      /* Custom Styles */
+
+      :root{
+
+/**
+ * colors
+ */
+
+/* gradient */
+
+--bg-gradient-onyx: linear-gradient(to bottom right,
+    hsl(240, 1%, 25%) 3%,
+    hsl(0, 0%, 19%) 97%);
+--bg-gradient-jet: linear-gradient(to bottom right,
+    hsla(240, 1%, 18%, 0.251) 0%,
+    hsla(240, 2%, 11%, 0) 100%), hsl(240, 2%, 13%);
+--bg-gradient-yellow-1: linear-gradient(to bottom right,
+    hsl(45, 100%, 71%) 0%,
+    hsla(36, 100%, 69%, 0) 50%);
+--bg-gradient-yellow-2: linear-gradient(135deg,
+    hsla(45, 100%, 71%, 0.251) 0%,
+    hsla(35, 100%, 68%, 0) 59.86%), hsl(240, 2%, 13%);
+--border-gradient-onyx: linear-gradient(to bottom right,
+    hsl(0, 0%, 25%) 0%,
+    hsla(0, 0%, 25%, 0) 50%);
+--text-gradient-yellow: linear-gradient(to right,
+    hsl(45, 100%, 72%),
+    hsl(35, 100%, 68%));
+
+/* solid */
+
+--jet: hsl(0, 0%, 22%);
+--onyx: hsl(240, 1%, 17%);
+--eerie-black-1: hsl(240, 2%, 13%);
+--eerie-black-2: hsl(240, 2%, 12%);
+--smoky-black: hsl(0, 0%, 7%);
+--white-1: hsl(0, 0%, 100%);
+--white-2: hsl(0, 0%, 98%);
+--orange-yellow-crayola: hsl(45, 100%, 72%);
+--vegas-gold: hsl(45, 54%, 58%);
+--light-gray: hsl(0, 0%, 84%);
+--light-gray-70: hsla(0, 0%, 84%, 0.7);
+--bittersweet-shimmer: hsl(0, 43%, 51%);
+
+/**
+ * typography
+ */
+
+/* font-family */
+--ff-poppins: 'Poppins', sans-serif;
+
+/* font-size */
+--fs-1: 24px;
+--fs-2: 18px;
+--fs-3: 17px;
+--fs-4: 16px;
+--fs-5: 15px;
+--fs-6: 14px;
+--fs-7: 13px;
+--fs-8: 11px;
+
+/* font-weight */
+--fw-300: 300;
+--fw-400: 400;
+--fw-500: 500;
+--fw-600: 600;
+
+/**
+ * shadow
+ */
+
+--shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+--shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+--shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
+--shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
+--shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
+
+/**
+ * transition
+ */
+
+--transition-1: 0.25s ease;
+--transition-2: 0.5s ease-in-out;
+
+}
+
       .card {
         @apply bg-white rounded-lg shadow-md overflow-hidden;
       }
@@ -83,7 +170,7 @@
           transform: rotate(360deg);
         }
       }
-
+ 
       /* Add these new styles */
       .repo-dialog {
         display: none;
@@ -248,12 +335,175 @@
       .file-path-separator {
         color: #9ca3af;
       }
+
+      /* Update body class and container styles */
+      body {
+         background: #121212;
+        color: var(--light-gray);
+        font-family: var(--ff-poppins);
+      }
+
+      .container {
+        background: var(--eerie-black-2);
+        border: 1px solid var(--jet);
+        border-radius: 20px;
+        padding: 2rem;
+        margin: 2rem auto;
+        box-shadow: var(--shadow-1);
+      }
+
+      .card {
+        background: var(--eerie-black-1);
+        border: 1px solid var(--jet);
+        border-radius: 20px;
+        padding: 1.5rem;
+        transition: var(--transition-1);
+      }
+
+      .card:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-2);
+      }
+
+      .button {
+        background: var(--onyx);
+        color: var(--orange-yellow-crayola);
+        border: 1px solid var(--jet);
+        transition: var(--transition-1);
+      }
+
+      .button:hover {
+        background: var(--jet);
+      }
+
+      /* Update dialog styles */
+      .repo-dialog-content {
+        background: var(--eerie-black-2);
+        border: 1px solid var(--jet);
+        color: var(--light-gray);
+      }
+
+      .clone-content {
+        background: var(--onyx);
+      }
+
+      .clone-url {
+        color: var(--light-gray);
+      }
+
+      /* Update code viewer styles */
+      pre[class*="language-"] {
+        background: var(--onyx) !important;
+      }
+
+      .file-header {
+        background: var(--eerie-black-1);
+        color: var(--light-gray);
+        border-color: var(--jet);
+      }
+
+      /* File path/breadcrumb styling */
+      .file-header {
+        position: sticky;
+        top: 0;
+        background: var(--eerie-black-1);
+        padding: 1rem;
+        border-bottom: 1px solid var(--jet);
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.875rem;
+        color: var(--light-gray);
+      }
+
+      .file-path-separator {
+        color: var(--light-gray-70);
+        opacity: 0.7;
+        margin: 0 0.25rem;
+      }
+
+      .file-header button {
+        color: var(--light-gray);
+        transition: color 0.2s;
+        padding: 0.25rem 0.5rem;
+        border-radius: 0.25rem;
+      }
+
+      .file-header button:hover {
+        color: var(--orange-yellow-crayola);
+        background: var(--onyx);
+      }
+
+      .file-header span:last-child {
+        color: var(--orange-yellow-crayola);
+      }
+
+      /* Button styling */
+      .button-action {
+        background: var(--onyx);
+        color: var(--light-gray);
+        padding: 0.75rem 1.5rem;
+        border-radius: 14px;
+        border: 1px solid var(--jet);
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+      }
+
+      .button-action:hover {
+        background: var(--jet);
+        color: var(--orange-yellow-crayola);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-2);
+      }
+
+      /* Update repository display function */
+      function displayRepositories(repos) {
+        const projectsGrid = document.getElementById("projectsGrid");
+        projectsGrid.innerHTML = repos.map(repo => `
+            <div class="card">
+                <div class="flex gap-3">
+                    <button onclick="showRepoDialog('${repo.name}')" 
+                        class="button-action flex-1">
+                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                        </svg>
+                        View Code
+                    </button>
+                    ${repo.homepage ? `
+                        <a href="${repo.homepage}" target="_blank" 
+                            class="button-action flex-1">
+                            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            Live Demo
+                        </a>
+                    ` : `
+                        <a href="${repo.html_url}" target="_blank" 
+                            class="button-action flex-1">
+                            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            View on GitHub
+                        </a>
+                    `}
+                </div>
+            </div>
+        `).join("");
+      }
     </style>
   </head>
-  <body class="bg-gray-100">
-    <div class="container mx-auto p-4">
+  <body>
+    <div class="container">
       <div class="flex justify-between items-center mb-6">
-        <h1 class="text-3xl font-bold text-gray-800">My Projects</h1>
+        <h1 class="text-3xl font-bold text-gradient">My Projects</h1>
         <div class="flex gap-2">
           <button class="button button-outline" id="newestBtn">
           </button>
@@ -321,114 +571,86 @@
       // Display repositories
       function displayRepositories(repos) {
         const projectsGrid = document.getElementById("projectsGrid");
-        projectsGrid.innerHTML = repos
-          .map(
-            (repo) => `
-                <div class="bg-white rounded-3xl border border-gray-200 p-8 hover:shadow-sm transition-shadow">
-                    <div class="flex justify-between items-start mb-4">
-                        <div>
-                            <h2 class="text-xl font-semibold text-blue-500">
-                                ${repo.name}
-                            </h2>
-                            <p class="text-gray-700 mt-3 mb-6">
-                                ${
-                                  repo.description || "No description available"
-                                }
-                            </p>
-                        </div>
-                        <img src="${
-                          repo.owner.avatar_url
-                        }" alt="Owner" class="w-10 h-10 rounded-full">
+        projectsGrid.innerHTML = repos.map(repo => `
+            <div class="card" style="background: var(--eerie-black-1); border: 1px solid var(--jet); border-radius: 20px; padding: 1.5rem;">
+                <div class="flex justify-between items-start mb-4">
+                    <div>
+                        <h2 class="text-xl font-semibold" style="color: var(--orange-yellow-crayola)">
+                            ${repo.name}
+                        </h2>
+                        <p class="mt-3 mb-6" style="color: var(--light-gray)">
+                            ${repo.description || "No description available"}
+                        </p>
                     </div>
-                    
-                    <div class="flex items-center gap-4 mb-6">
-                        ${
-                          repo.language
-                            ? `
-                            <span class="flex items-center text-sm text-gray-600">
-                                <span class="inline-block w-2.5 h-2.5 rounded-full ${
-                                  repo.language === "TypeScript"
-                                    ? "bg-blue-400"
-                                    : repo.language === "Python"
-                                    ? "bg-yellow-400"
-                                    : "bg-gray-400"
-                                } mr-2"></span>
-                                ${repo.language}
-                            </span>
-                        `
-                            : ""
-                        }
-                        <span class="flex items-center text-sm text-gray-600">
-                            <svg class="w-4 h-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                            </svg>
-                            ${repo.stargazers_count}
+                    <img src="${repo.owner.avatar_url}" alt="Owner" class="w-10 h-10 rounded-full">
+                </div>
+                
+                <div class="flex items-center gap-4 mb-6">
+                    ${repo.language ? `
+                        <span class="flex items-center text-sm">
+                            <span class="inline-block w-2.5 h-2.5 rounded-full ${
+                                repo.language === "TypeScript" ? "bg-blue-400" :
+                                repo.language === "Python" ? "bg-yellow-400" :
+                                "bg-gray-400"
+                            } mr-2"></span>
+                            ${repo.language}
                         </span>
-                        <span class="flex items-center text-sm text-gray-600">
-                 <svg class="w-4 h-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    ` : ""}
+                    <span class="flex items-center text-sm text-gray-600">
+                        <svg class="w-4 h-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        ${repo.stargazers_count}
+                    </span>
+                    <span class="flex items-center text-sm text-gray-600">
+             <svg class="w-4 h-4 mr-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
     <circle cx="12" cy="18" r="3"></circle>
     <circle cx="6" cy="6" r="3"></circle>
     <circle cx="18" cy="6" r="3"></circle>
     <path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path>
     <path d="M12 12v3"></path>
 </svg>
-                            ${repo.forks_count}
-                        </span>
-                    </div>
-
-                    <div class="flex gap-3">
-                        <button onclick="showRepoDialog('${repo.name}')" 
-                            class="flex-1 px-4 py-2.5 text-center border border-gray-300 rounded-xl hover:bg-gray-50 transition-colors">
-                            <span class="flex items-center justify-center">
-                                <svg class="w-4 h-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
-                                </svg>
-                                View Code
-                            </span>
-                        </button>
-                        ${
-                          repo.homepage
-                            ? `
-                            <a href="${repo.homepage}" target="_blank" 
-                                class="flex-1 px-4 py-2.5 text-center border border-gray-300 rounded-xl hover:bg-gray-50 transition-colors">
-                                <span class="flex items-center justify-center">
-                                    <svg class="w-4 h-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                        <polyline points="15 3 21 3 21 9"></polyline>
-                                        <line x1="10" y1="14" x2="21" y2="3"></line>
-                                    </svg>
-                                    Live Demo
-                                </span>
-                            </a>
-                        `
-                            : `
-                            <a href="${repo.html_url}" target="_blank" 
-                                class="flex-1 px-4 py-2.5 text-center border border-gray-300 rounded-xl hover:bg-gray-50 transition-colors">
-                                <span class="flex items-center justify-center">
-                                    <svg class="w-4 h-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                        <polyline points="15 3 21 3 21 9"></polyline>
-                                        <line x1="10" y1="14" x2="21" y2="3"></line>
-                                    </svg>
-                                    View on GitHub
-                                </span>
-                            </a>
-                        `
-                        }
-                    </div>
-
-                    <div class="text-xs text-gray-500 mt-4">
-                        <p>Created: ${new Date(
-                          repo.created_at
-                        ).toLocaleDateString()}</p>
-                        <p>Updated: ${new Date(
-                          repo.updated_at
-                        ).toLocaleDateString()}</p>
-                    </div>
+                        ${repo.forks_count}
+                    </span>
                 </div>
-            `
-          )
-          .join("");
+
+                <div class="flex gap-3">
+                    <button onclick="showRepoDialog('${repo.name}')" 
+                        class="button-action flex-1">
+                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                        </svg>
+                        View Code
+                    </button>
+                    ${repo.homepage ? `
+                        <a href="${repo.homepage}" target="_blank" 
+                            class="button-action flex-1">
+                            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            Live Demo
+                        </a>
+                    ` : `
+                        <a href="${repo.html_url}" target="_blank" 
+                            class="button-action flex-1">
+                            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            View on GitHub
+                        </a>
+                    `}
+                </div>
+
+                <div class="text-xs text-gray-500 mt-4">
+                    <p>Created: ${new Date(repo.created_at).toLocaleDateString()}</p>
+                    <p>Updated: ${new Date(repo.updated_at).toLocaleDateString()}</p>
+                </div>
+            </div>
+        `).join("");
       }
 
       // Sort repositories
@@ -493,11 +715,10 @@
                         <div class="clone-content">
                             <input type="text" class="clone-url" id="cloneUrl" 
                                 value="https://github.com/ahkamboh/${repoName}.git" readonly>
-                            <button onclick="copyCloneUrl()" class="button button-outline">
-                                <svg class="w-4 h-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <button onclick="copyCloneUrl()" class="button">
+                                <svg class="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M8 17.929H6c-1.105 0-2-.912-2-2.036V5.036C4 3.912 4.895 3 6 3h8c1.105 0 2 .912 2 2.036v1.866m-6 .17h8c1.105 0 2 .91 2 2.035v10.857C20 21.088 19.105 22 18 22h-8c-1.105 0-2-.911-2-2.036V9.107c0-1.124.895-2.036 2-2.036z"/>
                                 </svg>
-                                Copy
                             </button>
                         </div>
                     </div>
@@ -677,7 +898,7 @@
           const isImage = fileName.match(/\.(jpg|jpeg|png|gif|svg|webp)$/i);
           const fileExtension = fileName.split('.').pop()?.toLowerCase();
           
-          // Create breadcrumb navigation with sticky header
+          // Updated breadcrumbs HTML
           const pathParts = path.split('/').filter(Boolean);
           const breadcrumbs = `
               <div class="file-header">
@@ -688,13 +909,12 @@
                       <span class="file-path-separator">/</span>
                       <button 
                           onclick="fetchRepoContents('${repoName}', '${pathParts.slice(0, index + 1).join('/')}/')"
-                          class="hover:text-blue-600"
                       >
                           ${part}
                       </button>
                   `).join('')}
                   <span class="file-path-separator">/</span>
-                  <span class="text-gray-800">${fileName}</span>
+                  <span>${fileName}</span>
               </div>
           `;
 
