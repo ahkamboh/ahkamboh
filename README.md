@@ -7,6 +7,7 @@
 -  How to reach me **ahk@alihamzakamboh.com**
 -  My second account **https://github.com/kambohdiv**
 -  My projects [**ahkamboh/Projects**](https://alihamzakamboh.com/projects)
+- Let's generate your portfolio by clicking: [**ahkamboh/github2portolio**](https://github2portfolio.vercel.app/)
   
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ahkamboh) 
