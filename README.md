@@ -1,9 +1,5 @@
 <h1 align="center">Hi 👋, I'm ahkamboh </h1>
  
-<p align="left"> 
-  <img src="https://komarev.com/ghpvc/?username=ahkamboh&label=Profile%20views&color=0e75b6&style=flat" alt="ahkamboh" /> 
-</p>
-
 -  How to reach me **ahk@alihamzakamboh.com**
 -  My second account **https://github.com/kambohdiv**
 -  My projects [**ahkamboh/Projects**](https://alihamzakamboh.com/projects)
@@ -12,7 +8,6 @@
 ![](https://github-readme-stats.vercel.app/api?username=ahkamboh&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=ahkamboh&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ahkamboh&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 ## 🌐 Socials:
