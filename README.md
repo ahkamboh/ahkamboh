@@ -5,9 +5,9 @@
 -  My projects [**ahkamboh/Projects**](https://alihamzakamboh.com/projects)
 - Let's generate your portfolio by clicking: [**ahkamboh/github2portolio**](https://github2portfolio.vercel.app/)
  
-![](https://github-readme-stats.vercel.app/api?username=ahkamboh&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=ahkamboh&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ahkamboh&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+![](https://nirzak-streak-stats.vercel.app/?user=ahkamboh&theme=dark&hide_border=false)
+
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 ## 🌐 Socials:
