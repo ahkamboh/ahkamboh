@@ -6,9 +6,6 @@
 - Let's generate your portfolio by clicking: [**ahkamboh/github2portolio**](https://github2portfolio.vercel.app/)
  
 
-![](https://nirzak-streak-stats.vercel.app/?user=ahkamboh&theme=dark&hide_border=false)
-
-
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ahkamboh) 
