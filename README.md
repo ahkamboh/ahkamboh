@@ -1,11 +1,6 @@
-<h1 align="center">Hi 👋, I'm Ali Hamza Kamboh</h1>
-<h3 align="center">ahkamboh · Full-stack · Prop-firm & trading platforms</h3>
+<h1 align="center">Hi 👋, I'm ahkamboh </h1>
 
-<p align="center">
-  <a href="mailto:ahk@alihamzakamboh.com"><strong>ahk@alihamzakamboh.com</strong></a>
-  ·
-  <a href="https://github.com/ahkamboh">GitHub</a>
-</p>
+- How to reach me **ahk@alihamzakamboh.com**
 
 ---
 
@@ -24,9 +19,3 @@
     alt="GitHub contribution graph"
   />
 </p>
-
----
-
-## About
-
-Profile site: [ahkamboh.github.io/ahkamboh](https://ahkamboh.github.io/ahkamboh/)
