@@ -20,25 +20,12 @@
 
 <p align="center">
   <img
-    height="165"
-    src="https://github-readme-stats.vercel.app/api?username=ahkamboh&show_icons=true&theme=dark&include_all_commits=true&hide_border=false&border_radius=10"
-    alt="GitHub stats — commits, stars, PRs"
-  />
-  <img
-    height="165"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahkamboh&layout=compact&theme=dark&hide_border=false&border_radius=10&langs_count=8"
-    alt="Top languages"
-  />
-</p>
-
-<p align="center">
-  <img
     src="https://github-readme-activity-graph.vercel.app/graph?username=ahkamboh&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20activity"
     alt="GitHub contribution graph"
   />
 </p>
 
-> These cards pull **live data** from GitHub (streak, total public commits, contributions, languages). They refresh whenever someone views this README.
+> These cards pull **live data** from GitHub (streak and contribution activity). They refresh whenever someone views this README.
 
 ---
 
