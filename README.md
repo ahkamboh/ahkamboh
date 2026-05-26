@@ -25,8 +25,6 @@
   />
 </p>
 
-> These cards pull **live data** from GitHub (streak and contribution activity). They refresh whenever someone views this README.
-
 ---
 
 ## About
