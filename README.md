@@ -12,7 +12,7 @@
 
 <h3 align="center">✦ Featured projects</h3>
 
-🦙 **[NotebookLlama](https://github.com/ahkamboh/NotebookLlama)** — an open-source NotebookLM; turn your documents into a notebook you can chat with and listen to.
+🦙 **[NotebookLlama](https://github.com/ahkamboh/NotebookLlama)** — an open-source NotebookLM.
 
 🧠 **[thinktank](https://github.com/ahkamboh/thinktank)** — one shared, private memory for all your AI tools.
 
