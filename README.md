@@ -18,6 +18,8 @@
 
 💬 **[agent-caption](https://github.com/ahkamboh/agent-caption)** — add captions to any video or song, in any language, 100% on your device.
 
+🎬 **[scrolltape](https://github.com/ahkamboh/scrolltape)** — paste a link, get a smooth cursor-guided demo video of any website.
+
 📐 **[chalktalk](https://github.com/ahkamboh/chalktalk)** — make 3Blue1Brown-style animated math videos straight from a prompt.
 
 ✏️ **[inkling](https://github.com/ahkamboh/inkling)** — code-driven hand-drawn animated explainer videos.
