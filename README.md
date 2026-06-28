@@ -16,7 +16,7 @@
 
 🧠 **[thinktank](https://github.com/ahkamboh/thinktank)** — one shared, private memory for all your AI tools.
 
-💬 **[local-caption](https://github.com/ahkamboh/local-caption)** — add captions to any video or song, in any language, 100% on your device.
+💬 **[agent-caption](https://github.com/ahkamboh/agent-caption)** — add captions to any video or song, in any language, 100% on your device.
 
 📐 **[chalktalk](https://github.com/ahkamboh/chalktalk)** — make 3Blue1Brown-style animated math videos straight from a prompt.
 
