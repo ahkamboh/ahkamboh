@@ -31,3 +31,9 @@
 📄 **[repo2txt](https://github.com/ahkamboh/repo2txt)** — download a whole GitHub repo as a single text file for LLMs.
 
 <p align="center"><a href="https://github.com/ahkamboh?tab=repositories">→ browse all repositories</a></p>
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/clock/clock.svg" width="560" alt="a rhyming clock that tells the time in verse, with my current GitHub streak and total contributions" />
+</p>
