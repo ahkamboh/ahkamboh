@@ -35,5 +35,5 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/clock/clock.svg" width="560" alt="a rhyming clock that tells the time in verse, with my current GitHub streak and total contributions" />
+  <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/clock/clock.svg" width="100%" alt="a rhyming clock that tells the time in verse, with my current GitHub streak and total contributions" />
 </p>
