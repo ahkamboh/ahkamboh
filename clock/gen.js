@@ -88,42 +88,39 @@ const dots = (label, val, width = 30) => {
   return base + '.'.repeat(d) + ' ' + val;
 };
 function buildSVG({ lines, timeStr, total, streak }) {
-  const W = 640, H = 440, G = '#00ff88';
+  const W = 1080, H = 300, G = '#00ff88';
   const poem = lines.map((ln, i) =>
-    `<text x="44" y="${150 + i * 46}" class="poem">${esc(ln)}${i === lines.length - 1 ? '<tspan class="cur"> &#9608;</tspan>' : ''}</text>`
+    `<text x="56" y="${118 + i * 48}" class="poem">${esc(ln)}${i === lines.length - 1 ? '<tspan class="cur"> &#9608;</tspan>' : ''}</text>`
   ).join('\n  ');
-  const streakLine = dots('current streak', `${streak} day${streak === 1 ? '' : 's'}`);
-  const totalLine = dots('total commits', `${comma(total)}`);
+  const streakLine = dots('current streak', `${streak} day${streak === 1 ? '' : 's'}`, 30);
+  const totalLine = dots('total commits', `${comma(total)}`, 30);
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="rhyming clock: ${esc(timeStr)}, streak ${streak} days, ${total} contributions">
 <defs>
   <style>
     @font-face{font-family:'VT323';src:url(data:font/woff2;base64,${FONT}) format('woff2');}
     .ft{font-family:'VT323','Courier New',monospace;fill:${G};}
-    .poem{font-size:32px;}
-    .cur{opacity:.8;}
-    .hdr{font-size:21px;fill:${G};opacity:.55;}
+    .poem{font-size:34px;}
+    .cur{opacity:.85;}
+    .hdr{font-size:22px;fill:${G};opacity:.55;}
     .time{font-size:24px;fill:${G};opacity:.6;}
     .stat{font-size:27px;fill:${G};letter-spacing:1px;}
-    .foot{font-size:16px;fill:${G};opacity:.4;}
   </style>
-  <pattern id="scan" width="100%" height="4" patternUnits="userSpaceOnUse">
-    <rect width="100%" height="2" fill="#ffffff" opacity="0.025"/>
+  <pattern id="scan" width="6" height="4" patternUnits="userSpaceOnUse">
+    <rect width="6" height="2" fill="${G}" opacity="0.04"/>
   </pattern>
-  <filter id="glow"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="1.3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="${W}" height="${H}" rx="14" fill="#000000"/>
-<rect x="6" y="6" width="${W - 12}" height="${H - 12}" rx="10" fill="none" stroke="${G}" stroke-width="1.5" opacity="0.25"/>
+<rect x="5" y="5" width="${W - 10}" height="${H - 10}" rx="16" fill="none" stroke="${G}" stroke-width="1.5" opacity="0.32"/>
+<rect x="5" y="5" width="${W - 10}" height="${H - 10}" rx="16" fill="url(#scan)"/>
 <g class="ft" filter="url(#glow)">
-  <text x="40" y="48" class="hdr">ahkamboh@github &#8212; rhyming clock</text>
-  <circle cx="606" cy="40" r="6" fill="${G}"/>
+  <text x="40" y="50" class="hdr">ahkamboh@github &#8212; rhyming clock</text>
+  <circle cx="1042" cy="42" r="6" fill="${G}"/>
   ${poem}
-  <text x="600" y="300" text-anchor="end" class="time">${esc(timeStr)} PKT</text>
-  <text x="44" y="364" class="stat">${esc(streakLine)}</text>
-  <text x="44" y="402" class="stat">${esc(totalLine)}</text>
-  <text x="600" y="424" text-anchor="end" class="foot">auto-refreshes every ~30 min</text>
+  <text x="56" y="270" class="stat">${esc(streakLine)}</text>
+  <text x="540" y="270" text-anchor="middle" class="time">${esc(timeStr)} PKT</text>
+  <text x="1024" y="270" text-anchor="end" class="stat">${esc(totalLine)}</text>
 </g>
-<line x1="40" y1="324" x2="600" y2="324" stroke="${G}" stroke-width="1" opacity="0.25" stroke-dasharray="2 6"/>
-<rect width="${W}" height="${H}" rx="14" fill="url(#scan)"/>
+<line x1="40" y1="226" x2="1040" y2="226" stroke="${G}" stroke-width="1" opacity="0.22" stroke-dasharray="2 6"/>
 </svg>`;
 }
 
