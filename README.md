@@ -10,7 +10,7 @@
   <a href="mailto:ahk@alihamzakamboh.com"><img src="https://img.shields.io/badge/email-ahk@alihamzakamboh.com-1c1813?style=flat-square&logo=gmail&logoColor=white"></a>
 </p>
 
-<h3 align="center">✦ Featured projects</h3>
+<h3 align="center">✦ Projects in my free time</h3>
 
 🦙 **[NotebookLlama](https://github.com/ahkamboh/NotebookLlama)** — an open-source NotebookLM.
 
