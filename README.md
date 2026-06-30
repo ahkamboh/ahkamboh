@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ali Hamza Kamboh</h1>
 
 <p align="center">
-  i love building things. hacking on <a href="https://x.com/xotionai">@xotionai</a> · prev: founded <a href="https://x.com/Applyace">@Applyace</a> &amp; scaled <a href="https://x.com/Xaibridge">@Xaibridge</a> to $300k MRR.
+  i love building things.
 </p>
 
 <p align="center">
