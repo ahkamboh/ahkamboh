@@ -1,7 +1,7 @@
 name: rhyming clock
 on:
   schedule:
-    - cron: '*/30 * * * *'   # every ~30 min (GitHub cron is best-effort)
+    - cron: '*/10 * * * *'   # every ~30 min (GitHub cron is best-effort)
   workflow_dispatch:
 permissions:
   contents: write
