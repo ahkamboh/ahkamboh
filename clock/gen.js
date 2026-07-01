@@ -135,5 +135,6 @@ function buildSVG({ lines, timeStr, total, streak }) {
   else console.error('no token — stats will show 0');
   const { lines, timeStr } = timePoem(new Date());
   fs.writeFileSync(path.join(process.cwd(), 'clock.svg'), buildSVG({ lines, timeStr, ...stats }));
-  console.log(`clock.svg written — ${timeStr} · streak ${stats.streak} · total ${stats.total}`);
+  fs.writeFileSync(path.join(process.cwd(), 'stats.json'), JSON.stringify({ total: stats.total, streak: stats.streak }));
+  console.log(`clock.svg + stats.json written — ${timeStr} · streak ${stats.streak} · total ${stats.total}`);
 })();
