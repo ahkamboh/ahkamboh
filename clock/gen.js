@@ -105,21 +105,17 @@ function buildSVG({ lines, timeStr, total, streak }) {
     .time{font-size:24px;fill:${G};opacity:.6;}
     .stat{font-size:27px;fill:${G};letter-spacing:1px;}
     .pw{transform-origin:center;animation:pulse 2.4s ease-in-out infinite;}
-    .scanbar{animation:roll 5.5s linear infinite;}
     @keyframes blink{50%{opacity:0;}}
     @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
-    @keyframes roll{0%{transform:translateY(-70px);}100%{transform:translateY(310px);}}
     @keyframes flicker{0%,92%,100%{opacity:1;}94%{opacity:.85;}95%{opacity:1;}98%{opacity:.93;}}
   </style>
   <pattern id="scan" width="6" height="4" patternUnits="userSpaceOnUse">
     <rect width="6" height="2" fill="${G}" opacity="0.04"/>
   </pattern>
-  <clipPath id="cl"><rect x="6" y="6" width="${W - 12}" height="${H - 12}" rx="14"/></clipPath>
   <filter id="glow"><feGaussianBlur stdDeviation="1.3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <rect x="5" y="5" width="${W - 10}" height="${H - 10}" rx="16" fill="none" stroke="${G}" stroke-width="1.5" opacity="0.32"/>
 <rect x="5" y="5" width="${W - 10}" height="${H - 10}" rx="16" fill="url(#scan)"/>
-<g clip-path="url(#cl)"><rect class="scanbar" x="8" y="0" width="${W - 16}" height="44" fill="${G}" opacity="0.06"/></g>
 <g class="ft" filter="url(#glow)">
   <text x="40" y="50" class="hdr">ahkamboh@github &#8212; rhyming clock</text>
   <circle class="pw" cx="1042" cy="42" r="6" fill="${G}"/>
