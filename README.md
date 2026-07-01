@@ -20,6 +20,8 @@
 
 🎬 **[scrolltape](https://github.com/ahkamboh/scrolltape)** — paste a link, get a smooth cursor-guided demo video of any website.
 
+👁 **[agent-eyes](https://github.com/ahkamboh/agent-eyes)** — give your AI coding agent eyes: record any URL, catch where it breaks, hand it the frame + the error.
+
 📐 **[chalktalk](https://github.com/ahkamboh/chalktalk)** — make 3Blue1Brown-style animated math videos straight from a prompt.
 
 ✏️ **[inkling](https://github.com/ahkamboh/inkling)** — code-driven hand-drawn animated explainer videos.
