@@ -29,9 +29,9 @@ jobs:
         run: |
           git config --global user.name "clock-bot"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          mkdir -p /tmp/pub && cp clock.svg /tmp/pub/
+          mkdir -p /tmp/pub && cp clock.svg stats.json /tmp/pub/
           cd /tmp/pub
           git init -q -b clock
-          git add clock.svg
+          git add clock.svg stats.json
           git commit -q -m "clock $(date -u +%FT%TZ)"
           git push -q --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" clock

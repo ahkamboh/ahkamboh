@@ -122,13 +122,21 @@ function buildSVG({ lines, timeStr, total, streak }) {
 }
 
 async function getStats(env, ctx){
-  const token = env.GH_TOKEN || env.GITHUB_TOKEN || env.CLOCK_TOKEN;
+  // No token needed: read the streak/total the cron GitHub Action publishes to the
+  // clock branch (public raw URL). Falls back to an optional GraphQL token if present.
   const cache = caches.default;
-  const hit = await cache.match(new Request('https://clock.cache/stats-v3'));
+  const ck = new Request('https://clock.cache/stats-v4');
+  const hit = await cache.match(ck);
   if (hit) return hit.json();
   let stats = { total: 0, streak: 0 };
-  if (token) { try { stats = await fetchStats(token); } catch (e) { stats.err = String(e).slice(0,80); } }
-  ctx.waitUntil(cache.put(new Request('https://clock.cache/stats-v3'), new Response(JSON.stringify(stats), { headers: { 'Cache-Control': 'max-age=1800' } })));
+  try {
+    const r = await fetch('https://raw.githubusercontent.com/ahkamboh/ahkamboh/clock/stats.json', { cf: { cacheTtl: 120 } });
+    if (r.ok) { const j = await r.json(); stats = { total: j.total || 0, streak: j.streak || 0 }; }
+  } catch (e) { stats.err = String(e).slice(0, 80); }
+  if (!stats.total && (env.GH_TOKEN || env.GITHUB_TOKEN || env.CLOCK_TOKEN)) {
+    try { stats = await fetchStats(env.GH_TOKEN || env.GITHUB_TOKEN || env.CLOCK_TOKEN); } catch (e) {}
+  }
+  ctx.waitUntil(cache.put(ck, new Response(JSON.stringify(stats), { headers: { 'Cache-Control': 'max-age=300' } })));
   return stats;
 }
 export default {
