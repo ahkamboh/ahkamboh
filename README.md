@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ahkamboh/mascot-maker/99f09c0fa3187c05fe7e07871ce6b62d16affae1/assets/xo-transparent.gif" width="130" alt="xo — my mascot, made with mascot-maker" />
+</p>
+
 <h1 align="center">Hi 👋, I'm Ali Hamza Kamboh</h1>
 
 <p align="center">
