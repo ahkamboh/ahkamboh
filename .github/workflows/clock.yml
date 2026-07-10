@@ -22,16 +22,18 @@ jobs:
           CLOCK_TOKEN: ${{ secrets.CLOCK_TOKEN || github.token }}
           CLOCK_LOGIN: ahkamboh
           CLOCK_TZ: Asia/Karachi
-        run: node clock/gen.js
+        run: |
+          node clock/gen.js
+          node stats/gen.js
       - name: publish to the clock branch (force-push, single commit — no history bloat, not on the default branch so it never counts as a contribution)
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           git config --global user.name "clock-bot"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          mkdir -p /tmp/pub && cp clock.svg stats.json /tmp/pub/
+          mkdir -p /tmp/pub && cp clock.svg stats.json stats-dark.svg stats-light.svg /tmp/pub/
           cd /tmp/pub
           git init -q -b clock
-          git add clock.svg stats.json
+          git add clock.svg stats.json stats-dark.svg stats-light.svg
           git commit -q -m "clock $(date -u +%FT%TZ)"
           git push -q --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" clock
