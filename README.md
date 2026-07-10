@@ -15,13 +15,16 @@
 </p>
 
 
+<!-- stats card (hidden for now — uncomment to show; it keeps auto-updating on the clock branch either way)
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahkamboh/ahkamboh/clock/stats-dark.svg">
     <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/clock/stats-light.svg" width="900" alt="live github stats — uptime, repos, commits, followers, languages — with clawd, xo and dash, auto-updated daily">
   </picture>
 </p>
-\n<h3 align="center">these projects i am working on in my free time</h3>
+-->
+
+<h3 align="center">these projects i am working on in my free time</h3>
 
 🦙 **[NotebookLlama](https://github.com/ahkamboh/NotebookLlama)** — an open-source NotebookLM.
 
