@@ -84,10 +84,52 @@ function card(s, mode) {
     `<text x="${x}" y="${y}" font-size="${fs}px" fill="${fill}" xml:space="preserve">${lines.map((ln, i) =>
       `<tspan x="${x}" y="${y + i * fs}">${esc(ln)}</tspan>`).join('')}</text>`;
 
-  // the mascot family (mascot-maker block art)
-  const clawd = [' ▐▛███▜▌', '▝▜█████▛▘', '  ▘▘ ▝▝'];
-  const xo = [' ▄▄▄ ', '▐█ █▌', ' ▀▀▀ '];
-  const dashB = [' ▟▙ ', '▟██▙', '▐██▌', '▝▙▟▘'];
+  // the mascot family — ANIMATED (mascot-maker pose frames, CSS-cycled inside the SVG)
+  const txt = (lines, x, y, fs, fill, dy = 0) =>
+    `<text x="${x}" y="${y + dy}" font-size="${fs}px" fill="${fill}" xml:space="preserve">${lines.map((ln, i) =>
+      `<tspan x="${x}" y="${y + dy + i * fs}">${esc(ln)}</tspan>`).join('')}</text>`;
+
+  let css = '', body = '';
+  // frames: [lines, startMs, endMs, bobPx]
+  const animArt = (id, frames, dur, x, y, fs, fill) => {
+    frames.forEach((f, i) => {
+      const [lines, a, b, bob] = f;
+      const p0 = (a / dur * 100).toFixed(2), p1 = (b / dur * 100).toFixed(2);
+      body += `<g class="${id}${i}">` + txt(lines, x, y, fs, fill, bob || 0) + '</g>';
+      css += `.${id}${i}{opacity:0;animation:${id}k${i} ${dur}ms step-end infinite}` +
+        `@keyframes ${id}k${i}{${p0 === '0.00' ? '' : `0%{opacity:0}`}${p0}%{opacity:1}${p1 === '100.00' ? '' : `${p1}%{opacity:0}`}100%{opacity:${p1 === '100.00' ? 1 : 0}}}`;
+    });
+  };
+
+  // clawd — looks around, then jumps (arms up), 5s loop
+  const cD  = [' ▐▛███▜▌', '▝▜█████▛▘', '  ▘▘ ▝▝'];
+  const cLL = [' ▐▟███▟▌', '▝▜█████▛▘', '  ▘▘ ▝▝'];
+  const cLR = [' ▐▙███▙▌', '▝▜█████▛▘', '  ▘▘ ▝▝'];
+  const cAU = ['▗▟▛███▜▙▖', ' ▜█████▛', ' ▘▘   ▝▝'];
+  animArt('ca', [
+    [cD, 0, 800, 0], [cLL, 800, 1300, -3], [cD, 1300, 1600, 0], [cLR, 1600, 2100, -3],
+    [cD, 2100, 2400, 0], [cAU, 2400, 3000, -10], [cAU, 3000, 3600, -14],
+    [cD, 3600, 4300, 0], [cLL, 4300, 4700, -3], [cD, 4700, 5000, 0],
+  ], 5000, 88, 120, 34, TERRA);
+
+  // xo — blinks and glances, 4.2s loop
+  const xoE = e => [' ▄▄▄ ', e, ' ▀▀▀ '];
+  animArt('xa', [
+    [xoE('▐█ █▌'), 0, 1400, 0], [xoE('▐███▌'), 1400, 1550, 0], [xoE('▐█ █▌'), 1550, 2400, 0],
+    [xoE('▐ ██▌'), 2400, 2900, 0], [xoE('▐██ ▌'), 2900, 3400, 0], [xoE('▐   ▌'), 3400, 3700, 0],
+    [xoE('▐█ █▌'), 3700, 4200, 0],
+  ], 4200, 92, 286, 22, TERRA);
+
+  // dash — hovering with a flickering exhaust, little launch, 3s loop
+  const dB = [' ▟▙ ', '▟██▙', '▐██▌', '▝▙▟▘'];
+  const dashF = (fl, a, b, bob) => {
+    const p0 = (a / 30).toFixed(2), p1 = (b / 30).toFixed(2);   // /3000*100
+    body += `<g class="da${a}">` + txt(dB, 235, 278, 18, TERRA, bob) + txt([fl], 235, 278 + 4 * 18, 18, AMBER, bob) + '</g>';
+    css += `.da${a}{opacity:0;animation:dak${a} 3000ms step-end infinite}` +
+      `@keyframes dak${a}{${p0 === '0.00' ? '' : '0%{opacity:0}'}${p0}%{opacity:1}${p1 === '100.00' ? '' : `${p1}%{opacity:0}`}100%{opacity:${p1 === '100.00' ? 1 : 0}}}`;
+  };
+  dashF(' ▘▝ ', 0, 600, 0); dashF('    ', 600, 900, 0); dashF(' ▘▝ ', 900, 1500, 0);
+  dashF(' ██ ', 1500, 2100, -2); dashF('▗██▖', 2100, 2700, -6); dashF(' ▘▝ ', 2700, 3000, 0);
 
   const row = (i, k, v) => {
     const y = 118 + i * 34;
@@ -104,14 +146,11 @@ function card(s, mode) {
 
   const today = new Date().toISOString().slice(0, 10);
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="Menlo,Consolas,'DejaVu Sans Mono',monospace" role="img" aria-label="ahkamboh github stats: ${esc(s.commits)} contributions, ${esc(s.repos)} repos, ${esc(s.followers)} followers">
-<style>text,tspan{white-space:pre}</style>\n<rect width="${W}" height="${H}" fill="${BG}" rx="16"/>
+<style>text,tspan{white-space:pre}${css}</style>\n<rect width="${W}" height="${H}" fill="${BG}" rx="16"/>
 <rect x="1" y="1" width="${W - 2}" height="${H - 2}" fill="none" stroke="${BORDER}" stroke-width="2" rx="15"/>
-${art(clawd, 88, 120, 34, TERRA)}
+${body}
 <text x="150" y="230" font-size="13px" fill="${DIM}">clawd</text>
-${art(xo, 92, 286, 22, TERRA)}
 <text x="112" y="360" font-size="13px" fill="${DIM}">xo</text>
-${art(dashB, 235, 278, 18, TERRA)}
-<text x="248" y="352" font-size="18px" fill="${AMBER}"> ██</text>
 <text x="242" y="372" font-size="13px" fill="${DIM}">dash</text>
 <text x="450" y="64" font-size="20px" font-weight="bold"><tspan fill="${KEY}">ahkamboh</tspan><tspan fill="${DIM}">@</tspan><tspan fill="${INK}">github</tspan></text>
 <text x="450" y="86" font-size="15px" fill="${DIM}">――――――――――――――――――――――――</text>
