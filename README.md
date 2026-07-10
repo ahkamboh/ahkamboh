@@ -14,7 +14,14 @@
   <a href="mailto:ahk@alihamzakamboh.com"><img src="https://img.shields.io/badge/email-ahk@alihamzakamboh.com-1c1813?style=flat-square&logo=gmail&logoColor=white"></a>
 </p>
 
-<h3 align="center">these projects i am working on in my free time</h3>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahkamboh/ahkamboh/clock/stats-dark.svg">
+    <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/clock/stats-light.svg" width="900" alt="live github stats — uptime, repos, commits, followers, languages — with clawd, xo and dash, auto-updated daily">
+  </picture>
+</p>
+\n<h3 align="center">these projects i am working on in my free time</h3>
 
 🦙 **[NotebookLlama](https://github.com/ahkamboh/NotebookLlama)** — an open-source NotebookLM.
 
