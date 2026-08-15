@@ -26,11 +26,11 @@
 
 <h3 align="center">these projects i am working on in my free time</h3>
 
+🦙 **[NotebookLlama](https://github.com/ahkamboh/NotebookLlama)** — an open-source NotebookLM.
+
 📞 **[ear-auto-answer](https://github.com/ahkamboh/ear-auto-answer)** — answers a ringing call when you raise the phone to your ear. stays silent in a pocket.
 
 ✂️ **[offline-bg-removal](https://github.com/ahkamboh/offline-bg-removal)** — cut photo backgrounds on your machine. no api, no upload.
-
-🦙 **[NotebookLlama](https://github.com/ahkamboh/NotebookLlama)** — an open-source NotebookLM.
 
 🧠 **[thinktank](https://github.com/ahkamboh/thinktank)** — one shared, private memory for all your AI tools.
 
