@@ -1,3 +1,8 @@
+---
+layout: docs
+title: Giveaway chat platform
+---
+
 # Giveaway chat platform
 
 Author: Ali Hamza Kamboh
