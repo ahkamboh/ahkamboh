@@ -26,6 +26,15 @@
 
 <h3 align="center">these projects i am working on in my free time</h3>
 
+### ▶ [Xotion](https://github.com/ahkamboh/xotion-studio) — the prompt-native video editor
+
+**you describe the edit. a team of agents produces it, checks its own work, and ships it.**
+no timeline scrubbing, no keyframing — video · image · motion graphics, offline, no api keys.
+
+[**⬇ download for mac**](https://github.com/ahkamboh/xotion-studio/releases/latest) · [see the engine](https://github.com/ahkamboh/xotion-studio)
+
+---
+
 🦙 **[NotebookLlama](https://github.com/ahkamboh/NotebookLlama)** — an open-source NotebookLM.
 
 📞 **[ear-auto-answer](https://github.com/ahkamboh/ear-auto-answer)** — answers a ringing call when you raise the phone to your ear. stays silent in a pocket.
