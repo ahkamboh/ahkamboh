@@ -62,7 +62,7 @@ no timeline scrubbing, no keyframing — video · image · motion graphics, offl
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/repo2txt.png" width="20" align="absmiddle" alt="" /> **[repo2txt](https://github.com/ahkamboh/repo2txt)** — download a whole GitHub repo as a single text file for LLMs.
 
-<p align="center"><a href="https://github.com/ahkamboh?tab=repositories">→ browse all repositories</a></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/all-repos.png" width="20" align="absmiddle" alt="" /> <a href="https://github.com/ahkamboh?tab=repositories">browse all repositories</a></p>
 
 ---
 
