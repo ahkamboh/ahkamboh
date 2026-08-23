@@ -81,7 +81,9 @@ const dots = (label, val, width = 30) => {
   return base + '.'.repeat(d) + ' ' + val;
 };
 function buildSVG({ lines, timeStr, total, streak }) {
-  const W = 1080, H = 300, G = '#00ff88';
+  const W = 1080, H = 300;
+  // Brand palette — matches the profile icon set: terracotta on ink.
+  const G = '#e0451f', INK = '#0e0d0c', CREAM = '#f4f0e6';
   const poem = lines.map((ln, i) =>
     `<text x="56" y="${118 + i * 48}" class="poem">${esc(ln)}${i === lines.length - 1 ? '<tspan class="cur"> &#9608;</tspan>' : ''}</text>`
   ).join('\n  ');
@@ -92,7 +94,7 @@ function buildSVG({ lines, timeStr, total, streak }) {
   <style>
     @font-face{font-family:'VT323';src:url(data:font/woff2;base64,${FONT}) format('woff2');}
     .ft{font-family:'VT323','Courier New',monospace;fill:${G};animation:flicker 7s infinite;}
-    .poem{font-size:34px;}
+    .poem{font-size:34px;fill:${CREAM};}
     .cur{opacity:.85;animation:blink 1.06s step-end infinite;}
     .hdr{font-size:22px;fill:${G};opacity:.55;}
     .time{font-size:24px;fill:${G};opacity:.6;}
@@ -103,12 +105,13 @@ function buildSVG({ lines, timeStr, total, streak }) {
     @keyframes flicker{0%,92%,100%{opacity:1;}94%{opacity:.85;}95%{opacity:1;}98%{opacity:.93;}}
   </style>
   <pattern id="scan" width="6" height="4" patternUnits="userSpaceOnUse">
-    <rect width="6" height="2" fill="${G}" opacity="0.04"/>
+    <rect width="6" height="2" fill="${CREAM}" opacity="0.05"/>
   </pattern>
   <filter id="glow"><feGaussianBlur stdDeviation="1.3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect x="5" y="5" width="${W - 10}" height="${H - 10}" rx="16" fill="none" stroke="${G}" stroke-width="1.5" opacity="0.32"/>
-<rect x="5" y="5" width="${W - 10}" height="${H - 10}" rx="16" fill="url(#scan)"/>
+<rect x="0" y="0" width="${W}" height="${H}" rx="22" fill="${INK}"/>
+<rect x="5" y="5" width="${W - 10}" height="${H - 10}" rx="18" fill="none" stroke="${G}" stroke-width="1.5" opacity="0.42"/>
+<rect x="5" y="5" width="${W - 10}" height="${H - 10}" rx="18" fill="url(#scan)"/>
 <g class="ft" filter="url(#glow)">
   <text x="40" y="50" class="hdr">ahkamboh@github &#8212; rhyming clock</text>
   <circle class="pw" cx="1042" cy="42" r="6" fill="${G}"/>
