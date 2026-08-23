@@ -24,16 +24,42 @@ const COUPLETS = [
   t => [`${t}, and the wires glow warm,`, `a tiny calm inside the storm.`],
   t => [`the clock holds ${t} in its hand,`, `letting it fall like grains of sand.`],
 ];
-function timeParts(date) {
-  const f = (opts) => new Intl.DateTimeFormat('en-US', { timeZone: TZ, ...opts });
+function timeParts(date, tz = TZ) {
+  const f = (opts) => new Intl.DateTimeFormat('en-US', { timeZone: tz, ...opts });
   const t = f({ hour: 'numeric', minute: '2-digit', hour12: true }).format(date);
-  const p = new Intl.DateTimeFormat('en-GB', { timeZone: TZ, hour: '2-digit', minute: '2-digit', hour12: false }).formatToParts(date);
+  const p = new Intl.DateTimeFormat('en-GB', { timeZone: tz, hour: '2-digit', minute: '2-digit', hour12: false }).formatToParts(date);
   const h = +p.find(x => x.type === 'hour').value, m = +p.find(x => x.type === 'minute').value;
   return { t, slot: Math.floor((h * 60 + m) / 30) };
 }
-function timePoem(date) {
-  const { t, slot } = timeParts(date);
-  return { lines: COUPLETS[slot % COUPLETS.length](t), timeStr: t };
+
+/** Short label for a zone, e.g. "PKT", "GMT+2". Falls back to the zone name. */
+function tzLabel(date, tz) {
+  // My own zone keeps its proper abbreviation — ICU renders it as "GMT+5" on some
+  // runtimes, and this is the label GitHub readers see, so it should read right.
+  if (tz === TZ) return 'PKT';
+  try {
+    const p = new Intl.DateTimeFormat('en-US', { timeZone: tz, timeZoneName: 'short' }).formatToParts(date);
+    return p.find(x => x.type === 'timeZoneName')?.value || tz;
+  } catch { return tz; }
+}
+
+/**
+ * Resolve which clock to show.
+ * Cloudflare hands us the *requester's* timezone in `request.cf.timezone`, so a
+ * direct visit renders in their local time. On GitHub the requester is camo,
+ * GitHub's image proxy — not the reader — so there is nobody to localise to and
+ * we fall back to my own zone.
+ */
+function zoneFor(request) {
+  const tz = request?.cf?.timezone;
+  if (!tz || typeof tz !== 'string') return TZ;
+  try { new Intl.DateTimeFormat('en-US', { timeZone: tz }); return tz; }
+  catch { return TZ; }
+}
+
+function timePoem(date, tz = TZ) {
+  const { t, slot } = timeParts(date, tz);
+  return { lines: COUPLETS[slot % COUPLETS.length](t), timeStr: t, tzName: tzLabel(date, tz) };
 }
 
 // ---- GitHub streak + total contributions via GraphQL ----
@@ -80,7 +106,7 @@ const dots = (label, val, width = 30) => {
   const d = Math.max(2, width - base.length - String(val).length);
   return base + '.'.repeat(d) + ' ' + val;
 };
-function buildSVG({ lines, timeStr, total, streak }) {
+function buildSVG({ lines, timeStr, total, streak, tzName = 'PKT' }) {
   const W = 1080, H = 300;
   // Brand palette — matches the profile icon set: terracotta on ink.
   const G = '#e0451f', INK = '#0e0d0c', CREAM = '#f4f0e6';
@@ -117,7 +143,7 @@ function buildSVG({ lines, timeStr, total, streak }) {
   <circle class="pw" cx="1042" cy="42" r="6" fill="${G}"/>
   ${poem}
   <text x="56" y="270" class="stat">${esc(streakLine)}</text>
-  <text x="540" y="270" text-anchor="middle" class="time">${esc(timeStr)} PKT</text>
+  <text x="540" y="270" text-anchor="middle" class="time">${esc(timeStr)} ${esc(tzName)}</text>
   <text x="1024" y="270" text-anchor="end" class="stat">${esc(totalLine)}</text>
 </g>
 <line x1="40" y1="226" x2="1040" y2="226" stroke="${G}" stroke-width="1" opacity="0.22" stroke-dasharray="2 6"/>
@@ -145,8 +171,9 @@ async function getStats(env, ctx){
 export default {
   async fetch(request, env, ctx){
     const stats = await getStats(env, ctx);
-    const { lines, timeStr } = timePoem(new Date());
-    const svg = buildSVG({ lines, timeStr, total: stats.total||0, streak: stats.streak||0 });
+    const now = new Date();
+    const { lines, timeStr, tzName } = timePoem(now, zoneFor(request));
+    const svg = buildSVG({ lines, timeStr, tzName, total: stats.total||0, streak: stats.streak||0 });
     return new Response(svg, { headers: {
       'Content-Type':'image/svg+xml; charset=utf-8',
       'Cache-Control':'no-cache, no-store, max-age=0, must-revalidate',
