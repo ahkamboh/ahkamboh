@@ -45,15 +45,25 @@ function tzLabel(date, tz) {
 
 /**
  * Resolve which clock to show.
- * Cloudflare hands us the *requester's* timezone in `request.cf.timezone`, so a
- * direct visit renders in their local time. On GitHub the requester is camo,
- * GitHub's image proxy — not the reader — so there is nobody to localise to and
- * we fall back to my own zone.
+ *
+ * Default is MY zone, on purpose. This is a personal clock — it sits next to my
+ * streak and my commit count, so my time is the meaningful one.
+ *
+ * Localising to the reader is also not actually possible on GitHub: READMEs load
+ * images through camo, GitHub's proxy, so `request.cf.timezone` is camo's own
+ * datacenter (measured: America/New_York), identical for every reader and wrong
+ * for nearly all of them. Auto-detect is therefore opt-in via `?tz=auto`, which
+ * only makes sense where the SVG is embedded directly. `?tz=Area/City` pins an
+ * explicit zone.
  */
 function zoneFor(request) {
-  const tz = request?.cf?.timezone;
-  if (!tz || typeof tz !== 'string') return TZ;
-  try { new Intl.DateTimeFormat('en-US', { timeZone: tz }); return tz; }
+  let param = null;
+  try { param = new URL(request.url).searchParams.get('tz'); } catch {}
+  if (!param) return TZ;
+
+  const wanted = param === 'auto' ? request?.cf?.timezone : param;
+  if (!wanted || typeof wanted !== 'string') return TZ;
+  try { new Intl.DateTimeFormat('en-US', { timeZone: wanted }); return wanted; }
   catch { return TZ; }
 }
 
