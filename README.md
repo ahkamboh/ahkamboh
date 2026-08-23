@@ -4,7 +4,6 @@
 </h1>
 
 <p align="center">
-  i love building things.<br/>
   <a href="https://alihamzakamboh.com"><img src="https://img.shields.io/badge/website-alihamzakamboh.com-e0451f?style=flat-square&labelColor=1c1813"></a>
   <a href="https://x.com/ahkamb0h"><img src="https://img.shields.io/badge/X-@ahkamb0h-1c1813?style=flat-square&logo=x&logoColor=white"></a>
   <a href="mailto:ahk@alihamzakamboh.com"><img src="https://img.shields.io/badge/email-ahk@alihamzakamboh.com-1c1813?style=flat-square&logo=gmail&logoColor=white"></a>
