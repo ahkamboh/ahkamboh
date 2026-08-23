@@ -27,40 +27,40 @@
 <h3 align="center">these projects i am working on in my free time</h3>
 
 <h3>
-  <img src="https://raw.githubusercontent.com/ahkamboh/xotion-studio/main/assets/brand/xotion-icon.png" width="24" height="24" align="top" alt="" />
+  <img src="https://raw.githubusercontent.com/ahkamboh/xotion-studio/main/assets/brand/xotion-icon.png" width="26" align="absmiddle" alt="" />
   <a href="https://github.com/ahkamboh/xotion-studio">Xotion</a> — the prompt-native video editor
 </h3>
 
 **you describe the edit. a team of agents produces it, checks its own work, and ships it.**
 no timeline scrubbing, no keyframing — video · image · motion graphics, offline, no api keys.
 
-[**⬇ download for mac**](https://github.com/ahkamboh/xotion-studio/releases/latest) · [see the engine](https://github.com/ahkamboh/xotion-studio)
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/download.png" width="20" align="absmiddle" alt="" /> [**download for mac**](https://github.com/ahkamboh/xotion-studio/releases/latest) &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/code.png" width="20" align="absmiddle" alt="" /> [see the engine](https://github.com/ahkamboh/xotion-studio)
 
 ---
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/notebookllama.png" width="18" align="top" alt="" /> **[NotebookLlama](https://github.com/ahkamboh/NotebookLlama)** — an open-source NotebookLM.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/notebookllama.png" width="20" align="absmiddle" alt="" /> **[NotebookLlama](https://github.com/ahkamboh/NotebookLlama)** — an open-source NotebookLM.
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ear-auto-answer.png" width="18" align="top" alt="" /> **[ear-auto-answer](https://github.com/ahkamboh/ear-auto-answer)** — answers a ringing call when you raise the phone to your ear. stays silent in a pocket.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ear-auto-answer.png" width="20" align="absmiddle" alt="" /> **[ear-auto-answer](https://github.com/ahkamboh/ear-auto-answer)** — answers a ringing call when you raise the phone to your ear. stays silent in a pocket.
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/offline-bg-removal.png" width="18" align="top" alt="" /> **[offline-bg-removal](https://github.com/ahkamboh/offline-bg-removal)** — cut photo backgrounds on your machine. no api, no upload.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/offline-bg-removal.png" width="20" align="absmiddle" alt="" /> **[offline-bg-removal](https://github.com/ahkamboh/offline-bg-removal)** — cut photo backgrounds on your machine. no api, no upload.
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/thinktank.png" width="18" align="top" alt="" /> **[thinktank](https://github.com/ahkamboh/thinktank)** — one shared, private memory for all your AI tools.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/thinktank.png" width="20" align="absmiddle" alt="" /> **[thinktank](https://github.com/ahkamboh/thinktank)** — one shared, private memory for all your AI tools.
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/agent-caption.png" width="18" align="top" alt="" /> **[agent-caption](https://github.com/ahkamboh/agent-caption)** — add captions to any video or song, in any language, 100% on your device.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/agent-caption.png" width="20" align="absmiddle" alt="" /> **[agent-caption](https://github.com/ahkamboh/agent-caption)** — add captions to any video or song, in any language, 100% on your device.
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/scrolltape.png" width="18" align="top" alt="" /> **[scrolltape](https://github.com/ahkamboh/scrolltape)** — paste a link, get a smooth cursor-guided demo video of any website.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/scrolltape.png" width="20" align="absmiddle" alt="" /> **[scrolltape](https://github.com/ahkamboh/scrolltape)** — paste a link, get a smooth cursor-guided demo video of any website.
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/agent-eyes.png" width="18" align="top" alt="" /> **[agent-eyes](https://github.com/ahkamboh/agent-eyes)** — give your AI coding agent eyes: record any URL, catch where it breaks, hand it the frame + the error.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/agent-eyes.png" width="20" align="absmiddle" alt="" /> **[agent-eyes](https://github.com/ahkamboh/agent-eyes)** — give your AI coding agent eyes: record any URL, catch where it breaks, hand it the frame + the error.
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/chalktalk.png" width="18" align="top" alt="" /> **[chalktalk](https://github.com/ahkamboh/chalktalk)** — make 3Blue1Brown-style animated math videos straight from a prompt.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/chalktalk.png" width="20" align="absmiddle" alt="" /> **[chalktalk](https://github.com/ahkamboh/chalktalk)** — make 3Blue1Brown-style animated math videos straight from a prompt.
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/inkling.png" width="18" align="top" alt="" /> **[inkling](https://github.com/ahkamboh/inkling)** — code-driven hand-drawn animated explainer videos.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/inkling.png" width="20" align="absmiddle" alt="" /> **[inkling](https://github.com/ahkamboh/inkling)** — code-driven hand-drawn animated explainer videos.
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/mascot-maker.png" width="18" align="top" alt="" /> **[mascot-maker](https://github.com/ahkamboh/mascot-maker)** — design and render animated mascots from Unicode characters.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/mascot-maker.png" width="20" align="absmiddle" alt="" /> **[mascot-maker](https://github.com/ahkamboh/mascot-maker)** — design and render animated mascots from Unicode characters.
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/github2portfolio.png" width="18" align="top" alt="" /> **[github2portfolio](https://github.com/ahkamboh/github2portfolio)** — turn your GitHub profile into a portfolio website.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/github2portfolio.png" width="20" align="absmiddle" alt="" /> **[github2portfolio](https://github.com/ahkamboh/github2portfolio)** — turn your GitHub profile into a portfolio website.
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/repo2txt.png" width="18" align="top" alt="" /> **[repo2txt](https://github.com/ahkamboh/repo2txt)** — download a whole GitHub repo as a single text file for LLMs.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/repo2txt.png" width="20" align="absmiddle" alt="" /> **[repo2txt](https://github.com/ahkamboh/repo2txt)** — download a whole GitHub repo as a single text file for LLMs.
 
 <p align="center"><a href="https://github.com/ahkamboh?tab=repositories">→ browse all repositories</a></p>
 
