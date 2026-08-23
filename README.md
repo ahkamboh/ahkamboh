@@ -38,29 +38,29 @@ no timeline scrubbing, no keyframing — video · image · motion graphics, offl
 
 ---
 
-🦙 **[NotebookLlama](https://github.com/ahkamboh/NotebookLlama)** — an open-source NotebookLM.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/notebookllama.png" width="18" align="top" alt="" /> **[NotebookLlama](https://github.com/ahkamboh/NotebookLlama)** — an open-source NotebookLM.
 
-📞 **[ear-auto-answer](https://github.com/ahkamboh/ear-auto-answer)** — answers a ringing call when you raise the phone to your ear. stays silent in a pocket.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ear-auto-answer.png" width="18" align="top" alt="" /> **[ear-auto-answer](https://github.com/ahkamboh/ear-auto-answer)** — answers a ringing call when you raise the phone to your ear. stays silent in a pocket.
 
-✂️ **[offline-bg-removal](https://github.com/ahkamboh/offline-bg-removal)** — cut photo backgrounds on your machine. no api, no upload.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/offline-bg-removal.png" width="18" align="top" alt="" /> **[offline-bg-removal](https://github.com/ahkamboh/offline-bg-removal)** — cut photo backgrounds on your machine. no api, no upload.
 
-🧠 **[thinktank](https://github.com/ahkamboh/thinktank)** — one shared, private memory for all your AI tools.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/thinktank.png" width="18" align="top" alt="" /> **[thinktank](https://github.com/ahkamboh/thinktank)** — one shared, private memory for all your AI tools.
 
-💬 **[agent-caption](https://github.com/ahkamboh/agent-caption)** — add captions to any video or song, in any language, 100% on your device.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/agent-caption.png" width="18" align="top" alt="" /> **[agent-caption](https://github.com/ahkamboh/agent-caption)** — add captions to any video or song, in any language, 100% on your device.
 
-🎬 **[scrolltape](https://github.com/ahkamboh/scrolltape)** — paste a link, get a smooth cursor-guided demo video of any website.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/scrolltape.png" width="18" align="top" alt="" /> **[scrolltape](https://github.com/ahkamboh/scrolltape)** — paste a link, get a smooth cursor-guided demo video of any website.
 
-👁 **[agent-eyes](https://github.com/ahkamboh/agent-eyes)** — give your AI coding agent eyes: record any URL, catch where it breaks, hand it the frame + the error.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/agent-eyes.png" width="18" align="top" alt="" /> **[agent-eyes](https://github.com/ahkamboh/agent-eyes)** — give your AI coding agent eyes: record any URL, catch where it breaks, hand it the frame + the error.
 
-📐 **[chalktalk](https://github.com/ahkamboh/chalktalk)** — make 3Blue1Brown-style animated math videos straight from a prompt.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/chalktalk.png" width="18" align="top" alt="" /> **[chalktalk](https://github.com/ahkamboh/chalktalk)** — make 3Blue1Brown-style animated math videos straight from a prompt.
 
-✏️ **[inkling](https://github.com/ahkamboh/inkling)** — code-driven hand-drawn animated explainer videos.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/inkling.png" width="18" align="top" alt="" /> **[inkling](https://github.com/ahkamboh/inkling)** — code-driven hand-drawn animated explainer videos.
 
-🐤 **[mascot-maker](https://github.com/ahkamboh/mascot-maker)** — design and render animated mascots from Unicode characters.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/mascot-maker.png" width="18" align="top" alt="" /> **[mascot-maker](https://github.com/ahkamboh/mascot-maker)** — design and render animated mascots from Unicode characters.
 
-🪪 **[github2portfolio](https://github.com/ahkamboh/github2portfolio)** — turn your GitHub profile into a portfolio website.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/github2portfolio.png" width="18" align="top" alt="" /> **[github2portfolio](https://github.com/ahkamboh/github2portfolio)** — turn your GitHub profile into a portfolio website.
 
-📄 **[repo2txt](https://github.com/ahkamboh/repo2txt)** — download a whole GitHub repo as a single text file for LLMs.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/repo2txt.png" width="18" align="top" alt="" /> **[repo2txt](https://github.com/ahkamboh/repo2txt)** — download a whole GitHub repo as a single text file for LLMs.
 
 <p align="center"><a href="https://github.com/ahkamboh?tab=repositories">→ browse all repositories</a></p>
 
