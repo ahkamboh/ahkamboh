@@ -26,7 +26,10 @@
 
 <h3 align="center">these projects i am working on in my free time</h3>
 
-### ▶ [Xotion](https://github.com/ahkamboh/xotion-studio) — the prompt-native video editor
+<h3>
+  <img src="https://raw.githubusercontent.com/ahkamboh/xotion-studio/main/assets/brand/xotion-icon.png" width="24" height="24" align="top" alt="" />
+  <a href="https://github.com/ahkamboh/xotion-studio">Xotion</a> — the prompt-native video editor
+</h3>
 
 **you describe the edit. a team of agents produces it, checks its own work, and ships it.**
 no timeline scrubbing, no keyframing — video · image · motion graphics, offline, no api keys.
