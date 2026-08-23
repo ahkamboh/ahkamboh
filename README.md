@@ -1,14 +1,10 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ahkamboh/mascot-maker/99f09c0fa3187c05fe7e07871ce6b62d16affae1/assets/xo-transparent.gif" width="130" alt="xo — my mascot, made with mascot-maker" />
-</p>
-
-<h1 align="center">Hi <img src="assets/wave.gif" width="34" alt="👋" />, I'm Ali Hamza Kamboh</h1>
-
-<p align="center">
-  i love building things.
-</p>
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/ahkamboh/mascot-maker/99f09c0fa3187c05fe7e07871ce6b62d16affae1/assets/xo-transparent.gif" width="56" align="absmiddle" alt="xo — my mascot, made with mascot-maker" />
+  Hi <img src="assets/wave.gif" width="30" align="absmiddle" alt="👋" />, I'm Ali Hamza Kamboh
+</h1>
 
 <p align="center">
+  i love building things.<br/>
   <a href="https://alihamzakamboh.com"><img src="https://img.shields.io/badge/website-alihamzakamboh.com-e0451f?style=flat-square&labelColor=1c1813"></a>
   <a href="https://x.com/ahkamb0h"><img src="https://img.shields.io/badge/X-@ahkamb0h-1c1813?style=flat-square&logo=x&logoColor=white"></a>
   <a href="mailto:ahk@alihamzakamboh.com"><img src="https://img.shields.io/badge/email-ahk@alihamzakamboh.com-1c1813?style=flat-square&logo=gmail&logoColor=white"></a>
