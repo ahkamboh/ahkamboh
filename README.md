@@ -47,7 +47,7 @@ no timeline scrubbing, no keyframing — video · image · motion graphics, offl
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/agent-eyes.png" width="20" align="absmiddle" alt="" /> **[agent-eyes](https://github.com/ahkamboh/agent-eyes)** — give your AI coding agent eyes: record any URL, catch where it breaks, hand it the frame + the error.
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/jig.png" width="20" align="absmiddle" alt="" /> **[jig](https://github.com/ahkamboh/jig)** — run long AI workflows on small models. every step is checked before it counts, so mistakes stop piling up.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/stepmold.png" width="20" align="absmiddle" alt="" /> **[stepmold](https://github.com/ahkamboh/stepmold)** — run long AI workflows on small models. every step is checked before it counts, so mistakes stop piling up.
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/chalktalk.png" width="20" align="absmiddle" alt="" /> **[chalktalk](https://github.com/ahkamboh/chalktalk)** — make 3Blue1Brown-style animated math videos straight from a prompt.
 
