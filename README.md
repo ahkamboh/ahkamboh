@@ -32,8 +32,8 @@ no timeline scrubbing, no keyframing — video · image · motion graphics, offl
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/download.png" width="20" align="absmiddle" alt="" /> [**download for mac**](https://github.com/ahkamboh/xotion-studio/releases/latest) &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/code.png" width="20" align="absmiddle" alt="" /> [see the engine](https://github.com/ahkamboh/xotion-studio)
 
 ---
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/stepmold.png" width="20" align="absmiddle" alt="" /> **[stepmold](https://github.com/ahkamboh/stepmold)** — run long AI workflows on small models. every step is checked before it counts, so mistakes stop piling up.
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/notebookllama.png" width="20" align="absmiddle" alt="" /> **[NotebookLlama](https://github.com/ahkamboh/NotebookLlama)** — an open-source NotebookLM.
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ear-auto-answer.png" width="20" align="absmiddle" alt="" /> **[ear-auto-answer](https://github.com/ahkamboh/ear-auto-answer)** — answers a ringing call when you raise the phone to your ear. stays silent in a pocket.
 
@@ -46,8 +46,6 @@ no timeline scrubbing, no keyframing — video · image · motion graphics, offl
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/scrolltape.png" width="20" align="absmiddle" alt="" /> **[scrolltape](https://github.com/ahkamboh/scrolltape)** — paste a link, get a smooth cursor-guided demo video of any website.
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/agent-eyes.png" width="20" align="absmiddle" alt="" /> **[agent-eyes](https://github.com/ahkamboh/agent-eyes)** — give your AI coding agent eyes: record any URL, catch where it breaks, hand it the frame + the error.
-
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/stepmold.png" width="20" align="absmiddle" alt="" /> **[stepmold](https://github.com/ahkamboh/stepmold)** — run long AI workflows on small models. every step is checked before it counts, so mistakes stop piling up.
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/chalktalk.png" width="20" align="absmiddle" alt="" /> **[chalktalk](https://github.com/ahkamboh/chalktalk)** — make 3Blue1Brown-style animated math videos straight from a prompt.
 
