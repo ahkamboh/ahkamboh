@@ -26,7 +26,7 @@
 
 <div dir="rtl">
 
-<h3 align="center">ایہ پروجیکٹ میں وہلے ویلے بناندا رہنا واں</h3>
+<h3 align="center">ایہ پروجیکٹ میں وہلے ویلے بناندا آں</h3>
 
 <h3>
   <img src="https://raw.githubusercontent.com/ahkamboh/xotion-studio/main/assets/brand/xotion-icon.png" width="26" align="absmiddle" alt="" />
@@ -46,7 +46,7 @@
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/offline-bg-removal.png" width="20" align="absmiddle" alt="" /> **[offline-bg-removal](https://github.com/ahkamboh/offline-bg-removal)** — تصویراں دا پچھوکڑ اپنے کمپیوٹر تے ای لاہ دیو۔ نہ API، نہ اپ لوڈ۔
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/thinktank.png" width="20" align="absmiddle" alt="" /> **[thinktank](https://github.com/ahkamboh/thinktank)** — تہاڈے سارے AI ٹولاں لئی اک سانجھی تے اپنی یاد۔
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/thinktank.png" width="20" align="absmiddle" alt="" /> **[thinktank](https://github.com/ahkamboh/thinktank)** — تہاڈے سارے AI ٹولاں دی اک سانجھی یاد — جیہڑی تہاڈے کول ای رہندی اے۔
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/agent-caption.png" width="20" align="absmiddle" alt="" /> **[agent-caption](https://github.com/ahkamboh/agent-caption)** — کسے وی ویڈیو یا گانے تے، کسے وی بولی وچ کیپشن لاؤ — سو فیصد تہاڈی اپنی ڈیوائس تے۔
 
@@ -54,11 +54,11 @@
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/agent-eyes.png" width="20" align="absmiddle" alt="" /> **[agent-eyes](https://github.com/ahkamboh/agent-eyes)** — اپنے AI کوڈنگ ایجنٹ نوں اکھاں دیو: کوئی وی URL ریکارڈ کرو، جتھے کم وِگڑے اوہ پل پکڑو، تے اوہ فریم تے ایرر ایجنٹ نوں پھڑا دیو۔
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/chalktalk.png" width="20" align="absmiddle" alt="" /> **[chalktalk](https://github.com/ahkamboh/chalktalk)** — پرامپٹ توں سدھیاں 3Blue1Brown ورگیاں حساب دیاں اینیمیٹڈ ویڈیوز بناؤ۔
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/chalktalk.png" width="20" align="absmiddle" alt="" /> **[chalktalk](https://github.com/ahkamboh/chalktalk)** — پرامپٹ توں سدھا 3Blue1Brown ورگیاں حساب دیاں اینیمیٹڈ ویڈیوز بناؤ۔
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/inkling.png" width="20" align="absmiddle" alt="" /> **[inkling](https://github.com/ahkamboh/inkling)** — بندیاں کوڈ نال نیں، پر لگدیاں نیں جیویں ہتھ نال بنائیاں ہون — سمجھان والیاں اینیمیٹڈ ویڈیوز۔
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/inkling.png" width="20" align="absmiddle" alt="" /> **[inkling](https://github.com/ahkamboh/inkling)** — سمجھان والیاں اینیمیٹڈ ویڈیوز — بندیاں کوڈ نال نیں، پر لگدیاں نیں ہتھ نال بنائیاں۔
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/mascot-maker.png" width="20" align="absmiddle" alt="" /> **[mascot-maker](https://github.com/ahkamboh/mascot-maker)** — یونیکوڈ اکھراں توں اینیمیٹڈ میسکٹ ڈیزائن کرو تے رینڈر کرو۔
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/mascot-maker.png" width="20" align="absmiddle" alt="" /> **[mascot-maker](https://github.com/ahkamboh/mascot-maker)** — یونیکوڈ اکھراں توں اینیمیٹڈ میسکٹ بناؤ تے رینڈر کرو۔
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/github2portfolio.png" width="20" align="absmiddle" alt="" /> **[github2portfolio](https://github.com/ahkamboh/github2portfolio)** — اپنے GitHub پروفائل نوں پورٹ فولیو ویب سائٹ وچ بدل دیو۔
 
