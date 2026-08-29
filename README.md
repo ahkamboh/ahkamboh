@@ -1,3 +1,9 @@
+<p align="center">
+  <b>English</b> &nbsp;·&nbsp;
+  <a href="https://github.com/ahkamboh/ahkamboh/blob/main/README.ur.md">اردو</a> &nbsp;·&nbsp;
+  <a href="https://github.com/ahkamboh/ahkamboh/blob/main/README.pa.md">پنجابی</a>
+</p>
+
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/ahkamboh/mascot-maker/99f09c0fa3187c05fe7e07871ce6b62d16affae1/assets/xo-transparent.gif" width="56" align="absmiddle" alt="xo — my mascot, made with mascot-maker" />
   Hi <img src="assets/wave.gif" width="30" align="absmiddle" alt="👋" />, I'm Ali Hamza Kamboh
@@ -8,7 +14,6 @@
   <a href="https://x.com/ahkamb0h"><img src="https://img.shields.io/badge/X-@ahkamb0h-1c1813?style=flat-square&logo=x&logoColor=white"></a>
   <a href="mailto:ahk@alihamzakamboh.com"><img src="https://img.shields.io/badge/email-ahk@alihamzakamboh.com-1c1813?style=flat-square&logo=gmail&logoColor=white"></a>
 </p>
-
 
 <!-- stats card (hidden for now — uncomment to show; it keeps auto-updating on the clock branch either way)
 <p align="center">
@@ -32,8 +37,8 @@ no timeline scrubbing, no keyframing — video · image · motion graphics, offl
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/download.png" width="20" align="absmiddle" alt="" /> [**download for mac**](https://github.com/ahkamboh/xotion-studio/releases/latest) &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/code.png" width="20" align="absmiddle" alt="" /> [see the engine](https://github.com/ahkamboh/xotion-studio)
 
 ---
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/stepmold.png" width="20" align="absmiddle" alt="" /> **[stepmold](https://github.com/ahkamboh/stepmold)** — run long AI workflows on small models. every step is checked before it counts, so mistakes stop piling up.
 
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/stepmold.png" width="20" align="absmiddle" alt="" /> **[stepmold](https://github.com/ahkamboh/stepmold)** — run long AI workflows on small models. every step is checked before it counts, so mistakes stop piling up.
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ear-auto-answer.png" width="20" align="absmiddle" alt="" /> **[ear-auto-answer](https://github.com/ahkamboh/ear-auto-answer)** — answers a ringing call when you raise the phone to your ear. stays silent in a pocket.
 
