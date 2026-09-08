@@ -42,7 +42,7 @@
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/stepmold.png" width="20" align="absmiddle" alt="" /> **[stepmold](https://github.com/ahkamboh/stepmold)** — نکے ماڈلاں توں وڈے AI کم لؤ۔ ہر قدم اگے ٹُرن توں پہلاں پرکھیا جاندا اے، تاں جو غلطیاں اکٹھیاں نہ ہون۔
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ferry.png" width="20" align="absmiddle" alt="" /> **[ferry](https://github.com/ahkamboh/ferry)** — جیہڑے claude code اکاؤنٹ توں تسیں سائن آؤٹ او، اوہدی کوئی وی گل کاپی جاں منتقل کرو اوس اکاؤنٹ وچ جیہڑا ہُن چل رہیا اے۔ claude پرانا سیاق آپے چُک لیندا اے، پروجیکٹ مُڑ توں دسنا نہیں پیندا — سبھ کجھ تہاڈی اپنی مشین تے۔
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ferry.png" width="20" align="absmiddle" alt="" /> **[ferry](https://github.com/ahkamboh/ferry)** — claude code اکاؤنٹاں وچکار گل کاپی جاں منتقل کرو۔ پرانا سیاق نال ای آ جاندا اے، سبھ کجھ تہاڈی مشین تے۔
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ear-auto-answer.png" width="20" align="absmiddle" alt="" /> **[ear-auto-answer](https://github.com/ahkamboh/ear-auto-answer)** — فون کن نال لاؤ تے وجدی کال آپے ای چُک جاندی اے۔ جیب وچ پیا ہووے تے چُپ رہندی اے۔
 
