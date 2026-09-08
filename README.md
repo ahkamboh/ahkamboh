@@ -40,7 +40,7 @@ no timeline scrubbing, no keyframing — video · image · motion graphics, offl
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/stepmold.png" width="20" align="absmiddle" alt="" /> **[stepmold](https://github.com/ahkamboh/stepmold)** — run long AI workflows on small models. every step is checked before it counts, so mistakes stop piling up.
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ferry.png" width="20" align="absmiddle" alt="" /> **[ferry](https://github.com/ahkamboh/ferry)** — move your claude code chats between accounts. switch logins without losing the context you already built.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ferry.png" width="20" align="absmiddle" alt="" /> **[ferry](https://github.com/ahkamboh/ferry)** — copy or move a chat from a claude code account you're signed out of into the one you're using now. claude picks up the old context instead of you explaining the project again — all on your machine.
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ear-auto-answer.png" width="20" align="absmiddle" alt="" /> **[ear-auto-answer](https://github.com/ahkamboh/ear-auto-answer)** — answers a ringing call when you raise the phone to your ear. stays silent in a pocket.
 

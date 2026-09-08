@@ -42,7 +42,7 @@
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/stepmold.png" width="20" align="absmiddle" alt="" /> **[stepmold](https://github.com/ahkamboh/stepmold)** — چھوٹے ماڈلز پر لمبے AI ورک فلو چلائیں۔ ہر قدم گنے جانے سے پہلے جانچا جاتا ہے، تاکہ غلطیاں جمع نہ ہوں۔
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ferry.png" width="20" align="absmiddle" alt="" /> **[ferry](https://github.com/ahkamboh/ferry)** — اپنی claude code چیٹس ایک اکاؤنٹ سے دوسرے میں لے جائیں۔ لاگ اِن بدلیں، مگر جو سیاق و سباق بنایا ہے وہ ساتھ رہے۔
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ferry.png" width="20" align="absmiddle" alt="" /> **[ferry](https://github.com/ahkamboh/ferry)** — جس claude code اکاؤنٹ سے آپ سائن آؤٹ ہیں، اُس کی کوئی بھی چیٹ کاپی یا منتقل کریں اُس اکاؤنٹ میں جو ابھی چل رہا ہے۔ claude پرانا سیاق خود اُٹھا لیتا ہے، پروجیکٹ دوبارہ سمجھانا نہیں پڑتا — سب کچھ آپ کی اپنی مشین پر۔
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ear-auto-answer.png" width="20" align="absmiddle" alt="" /> **[ear-auto-answer](https://github.com/ahkamboh/ear-auto-answer)** — فون کان کے قریب لے جائیں تو بجتی ہوئی کال خود اٹھ جاتی ہے۔ جیب میں ہو تو خاموش رہتی ہے۔
 
