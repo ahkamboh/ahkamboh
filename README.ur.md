@@ -42,6 +42,8 @@
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/stepmold.png" width="20" align="absmiddle" alt="" /> **[stepmold](https://github.com/ahkamboh/stepmold)** — چھوٹے ماڈلز پر لمبے AI ورک فلو چلائیں۔ ہر قدم گنے جانے سے پہلے جانچا جاتا ہے، تاکہ غلطیاں جمع نہ ہوں۔
 
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ferry.png" width="20" align="absmiddle" alt="" /> **[ferry](https://github.com/ahkamboh/ferry)** — اپنی claude code چیٹس ایک اکاؤنٹ سے دوسرے میں لے جائیں۔ لاگ اِن بدلیں، مگر جو سیاق و سباق بنایا ہے وہ ساتھ رہے۔
+
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ear-auto-answer.png" width="20" align="absmiddle" alt="" /> **[ear-auto-answer](https://github.com/ahkamboh/ear-auto-answer)** — فون کان کے قریب لے جائیں تو بجتی ہوئی کال خود اٹھ جاتی ہے۔ جیب میں ہو تو خاموش رہتی ہے۔
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/offline-bg-removal.png" width="20" align="absmiddle" alt="" /> **[offline-bg-removal](https://github.com/ahkamboh/offline-bg-removal)** — تصویروں کا بیک گراؤنڈ اپنے کمپیوٹر پر ہی ہٹائیں۔ نہ API، نہ اپ لوڈ۔
