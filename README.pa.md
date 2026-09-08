@@ -42,6 +42,8 @@
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/stepmold.png" width="20" align="absmiddle" alt="" /> **[stepmold](https://github.com/ahkamboh/stepmold)** — نکے ماڈلاں توں وڈے AI کم لؤ۔ ہر قدم اگے ٹُرن توں پہلاں پرکھیا جاندا اے، تاں جو غلطیاں اکٹھیاں نہ ہون۔
 
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ferry.png" width="20" align="absmiddle" alt="" /> **[ferry](https://github.com/ahkamboh/ferry)** — اپنیاں claude code گلاں اک اکاؤنٹ توں دوجے وچ لے جاؤ۔ لاگ اِن بدلو، پر جیہڑا کم تے سیاق تسیں بنایا اے اوہ نال ای رہوے۔
+
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ear-auto-answer.png" width="20" align="absmiddle" alt="" /> **[ear-auto-answer](https://github.com/ahkamboh/ear-auto-answer)** — فون کن نال لاؤ تے وجدی کال آپے ای چُک جاندی اے۔ جیب وچ پیا ہووے تے چُپ رہندی اے۔
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/offline-bg-removal.png" width="20" align="absmiddle" alt="" /> **[offline-bg-removal](https://github.com/ahkamboh/offline-bg-removal)** — تصویراں دا پچھوکڑ اپنے کمپیوٹر تے ای لاہ دیو۔ نہ API، نہ اپ لوڈ۔
