@@ -38,7 +38,7 @@ no timeline scrubbing, no keyframing — video · image · motion graphics, offl
 
 ---
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/swarm.png" width="20" align="absmiddle" alt="" /> **[swarm](https://github.com/ahkamboh/swarm)** — remote offboarding security for code and data. when someone leaves, their access ends, including the copy on their laptop.
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/sworm.png" width="20" align="absmiddle" alt="" /> **[sworm](https://github.com/ahkamboh/sworm)** — remote offboarding security for code and data. when someone leaves, their access ends, including the copy on their laptop.
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/stepmold.png" width="20" align="absmiddle" alt="" /> **[stepmold](https://github.com/ahkamboh/stepmold)** — run long AI workflows on small models. every step is checked before it counts, so mistakes stop piling up.
 
