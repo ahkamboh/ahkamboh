@@ -38,6 +38,8 @@ no timeline scrubbing, no keyframing — video · image · motion graphics, offl
 
 ---
 
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/swarm.png" width="20" align="absmiddle" alt="" /> **[swarm](https://github.com/ahkamboh/swarm)** — remote offboarding security for code and data. when someone leaves, their access ends, including the copy on their laptop.
+
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/stepmold.png" width="20" align="absmiddle" alt="" /> **[stepmold](https://github.com/ahkamboh/stepmold)** — run long AI workflows on small models. every step is checked before it counts, so mistakes stop piling up.
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/ferry.png" width="20" align="absmiddle" alt="" /> **[ferry](https://github.com/ahkamboh/ferry)** — copy or move a chat between claude code accounts. the old context comes with it, all on your machine.
