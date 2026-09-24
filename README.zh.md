@@ -39,7 +39,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/sworm.png" width="20" align="absmiddle" alt="" /> **[sworm](https://github.com/ahkamboh/sworm)** — 面向代码与数据的远程离职安全。当有人离开时，其访问权限即告终止，包括其笔记本电脑上的副本。
+<img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/sworm.png" width="20" align="absmiddle" alt="" /> **[sworm](https://github.com/ahkamboh/sworm)** — 一种可通过代码文件、文件夹或 APK 等安装到任意设备上的蠕虫，对用户静默运行且屏幕上不显示任何通知或弹窗，隐藏于 RAM 中，并通过你的 CLI 进行控制。
 
 <img src="https://raw.githubusercontent.com/ahkamboh/ahkamboh/main/assets/icons/stepmold.png" width="20" align="absmiddle" alt="" /> **[stepmold](https://github.com/ahkamboh/stepmold)** — 在小模型上运行长 AI 工作流。每一步生效前都会被检查，避免错误累积。
 
