@@ -1,7 +1,8 @@
 <p align="center">
   <b>English</b> &nbsp;·&nbsp;
   <a href="https://github.com/ahkamboh/ahkamboh/blob/main/README.ur.md">اردو</a> &nbsp;·&nbsp;
-  <a href="https://github.com/ahkamboh/ahkamboh/blob/main/README.pa.md">پنجابی</a>
+  <a href="https://github.com/ahkamboh/ahkamboh/blob/main/README.pa.md">پنجابی</a> &nbsp;·&nbsp;
+  <a href="https://github.com/ahkamboh/ahkamboh/blob/main/README.zh.md">中文</a>
 </p>
 
 <h1 align="center">
