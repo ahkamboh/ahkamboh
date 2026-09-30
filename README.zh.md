@@ -7,7 +7,7 @@
 
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/ahkamboh/mascot-maker/99f09c0fa3187c05fe7e07871ce6b62d16affae1/assets/xo-transparent.gif" width="56" align="absmiddle" alt="xo — my mascot, made with mascot-maker" />
-  你好 <img src="assets/wave.gif" width="30" align="absmiddle" alt="👋" />，我是 Ali Hamza Kamboh
+  你好 <img src="assets/wave.gif" width="30" align="absmiddle" alt="👋" />，我是 ahkamboh
 </h1>
 
 <!-- stats card (hidden for now — uncomment to show; it keeps auto-updating on the clock branch either way)
