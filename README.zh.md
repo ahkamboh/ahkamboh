@@ -10,12 +10,6 @@
   你好 <img src="assets/wave.gif" width="30" align="absmiddle" alt="👋" />，我是 Ali Hamza Kamboh
 </h1>
 
-<p align="center">
-  <a href="https://alihamzakamboh.com"><img src="https://img.shields.io/badge/website-alihamzakamboh.com-e0451f?style=flat-square&labelColor=1c1813"></a>
-  <a href="https://x.com/ahkamb0h"><img src="https://img.shields.io/badge/X-@ahkamb0h-1c1813?style=flat-square&logo=x&logoColor=white"></a>
-  <a href="mailto:ahk@alihamzakamboh.com"><img src="https://img.shields.io/badge/email-ahk@alihamzakamboh.com-1c1813?style=flat-square&logo=gmail&logoColor=white"></a>
-</p>
-
 <!-- stats card (hidden for now — uncomment to show; it keeps auto-updating on the clock branch either way)
 <p align="center">
   <picture>
