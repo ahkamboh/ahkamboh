@@ -6,7 +6,7 @@
 </p>
 
 <h1 align="center">
-  <img src="assets/xo.gif" height="28" align="absmiddle" alt="xo — my mascot, made with mascot-maker" /> 你好，我是 ahkamboh
+  <img src="assets/xo.gif" height="22" alt="xo — my mascot, made with mascot-maker" />&nbsp;你好，我是 ahkamboh
 </h1>
 
 <!-- stats card (hidden for now — uncomment to show; it keeps auto-updating on the clock branch either way)
