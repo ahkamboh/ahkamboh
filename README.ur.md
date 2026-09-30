@@ -6,7 +6,7 @@
 </p>
 
 <h1 align="center">
-  سلام <img src="https://raw.githubusercontent.com/ahkamboh/mascot-maker/99f09c0fa3187c05fe7e07871ce6b62d16affae1/assets/xo-transparent.gif" width="40" align="absmiddle" alt="xo — my mascot, made with mascot-maker" />، میں ahkamboh ہوں
+  <img src="assets/xo.gif" height="28" align="absmiddle" alt="xo — my mascot, made with mascot-maker" /> سلام، میں ahkamboh ہوں
 </h1>
 
 <!-- stats card (hidden for now — uncomment to show; it keeps auto-updating on the clock branch either way)
