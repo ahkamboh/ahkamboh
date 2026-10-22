@@ -155,5 +155,5 @@ Remote from Lahore. US / EU / Americas overlap hours fine.
 
 Ali Hamza Kamboh  
   
-hi@alihamzakamboh.com  
+hi@ahkamboh.com  
 https://linkedin.com/in/ahkamboh
