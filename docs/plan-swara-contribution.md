@@ -154,6 +154,5 @@ You set the deadline and the scope. I will ship working code and a short write-u
 Remote from Lahore. US / EU / Americas overlap hours fine.
 
 Ali Hamza Kamboh  
-  
-hi@ahkamboh.com  
+hi@alihamzakamboh.com  
 https://linkedin.com/in/ahkamboh
